@@ -30,9 +30,11 @@ public class Main {
         //comparatorSorter.sort(cats,new CatHeightComparator());
         //comparatorSorter.sort(dogs,new DogFoodComparator());
         //lumbda表达式写法(接口中只有一种方法 ，这种接口就称为函数式接口)
-        comparatorSorter.sort(dogs,(o1,o2)->{
-            if (((Dog)o1).food < ((Dog)o2).food) return -1;
-            else if (((Dog)o1).food > ((Dog)o2).food) return 1;
+        //函数式接口有一个校验注解@FunctionalInterface
+        ComparatorSorter<Dog> dogComparatorSorter = new ComparatorSorter();
+        dogComparatorSorter.sort(dogs,(o1,o2)->{
+            if (o1.food < o2.food) return -1;
+            else if (o1.food > o2.food) return 1;
             else return 0;
         });
         System.out.println(Arrays.toString(cats));
