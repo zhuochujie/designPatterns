@@ -1,5 +1,7 @@
 package com.mashibing.stragtegy;
 
+import com.sun.xml.internal.bind.v2.model.core.ID;
+
 import java.util.Arrays;
 
 /**
@@ -26,7 +28,13 @@ public class Main {
         ComparatorSorter comparatorSorter = new ComparatorSorter();
         comparatorSorter.sort(cats,new CatWeightComparator());
         //comparatorSorter.sort(cats,new CatHeightComparator());
-        comparatorSorter.sort(dogs,new DogFoodComparator());
+        //comparatorSorter.sort(dogs,new DogFoodComparator());
+        //lumbda表达式写法(接口中只有一种方法 ，这种接口就称为函数式接口)
+        comparatorSorter.sort(dogs,(o1,o2)->{
+            if (((Dog)o1).food < ((Dog)o2).food) return -1;
+            else if (((Dog)o1).food > ((Dog)o2).food) return 1;
+            else return 0;
+        });
         System.out.println(Arrays.toString(cats));
         System.out.println(Arrays.toString(dogs));
     }
