@@ -1,6 +1,4 @@
-package com.mashibing.stragtegy;
-
-import com.sun.xml.internal.bind.v2.model.core.ID;
+package com.mashibing.strategy;
 
 import java.util.Arrays;
 

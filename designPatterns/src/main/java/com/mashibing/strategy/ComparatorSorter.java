@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 public class ComparatorSorter<T> {
     public void sort(T[] arr,Comparator<T> comparator){

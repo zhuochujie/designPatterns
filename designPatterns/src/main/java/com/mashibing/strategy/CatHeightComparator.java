@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 public class CatHeightComparator implements Comparator<Cat> {
     //身高倒序排列

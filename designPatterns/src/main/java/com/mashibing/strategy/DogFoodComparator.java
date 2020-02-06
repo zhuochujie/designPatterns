@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 public class DogFoodComparator implements Comparator<Dog> {
     //dog饭量food正序排列

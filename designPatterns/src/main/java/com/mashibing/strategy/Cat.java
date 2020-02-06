@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 public class Cat implements Comparable<Cat> {
     int weight,height;

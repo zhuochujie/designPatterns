@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 /**
  * 比较器Comparator 仿照参考java.util Interface Comparator<T>类写的

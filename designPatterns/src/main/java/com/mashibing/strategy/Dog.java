@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 public class Dog implements Comparable<Dog> {
     int food;

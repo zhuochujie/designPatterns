@@ -1,4 +1,4 @@
-package com.mashibing.stragtegy;
+package com.mashibing.strategy;
 
 /**
  * cat比较大小的策略可以灵活指定： 实现接口Comparator
