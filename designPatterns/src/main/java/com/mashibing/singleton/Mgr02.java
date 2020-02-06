@@ -2,6 +2,7 @@ package com.mashibing.singleton;
 
 /**
  * 懒汉模式
+ *虽然实现了按需初始化（用到时初始化），但是线程不安全
  */
 public class Mgr02 {
     private static Mgr02 INSTANCE;

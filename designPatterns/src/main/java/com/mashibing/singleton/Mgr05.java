@@ -1,5 +1,8 @@
 package com.mashibing.singleton;
 
+/**
+ * 枚举单例 ： 不仅可以解决线程同步 还可以防止反序列化（即使反射构建对象实际也是一样，保证唯一）
+ */
 public enum Mgr05 {
     //唯一的取值，下面的调用只能调用这一个，没有争议
     INSTANCE,INSTANCE1;
