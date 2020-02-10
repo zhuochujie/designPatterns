@@ -10,6 +10,11 @@ public class Child {
         observers.add(new Dad());
         observers.add(new Mom());
         observers.add(new Dog());
+        //钩子函数 其实也是观察者模式
+        observers.add((e)->{
+            System.out.println(e);
+                }
+        );
     }
     public boolean isCry(){
         return cry;

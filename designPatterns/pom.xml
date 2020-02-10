@@ -21,7 +21,6 @@
         </plugins>
     </build>
     <modules>
-        <module>../eureka</module>
     </modules>
     <dependencies>
         <dependency>
