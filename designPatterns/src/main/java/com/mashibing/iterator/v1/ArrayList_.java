@@ -1,7 +1,10 @@
 package com.mashibing.iterator.v1;
 
 
-
+/**
+ * 用数组实现一个容器，可以添加对象
+ * 相比数组，这个容器不考虑边界问题，可以动态扩展
+ */
 public class ArrayList_ {
     Object[] objects = new Object[10];
     private int index = 0;

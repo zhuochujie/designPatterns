@@ -1,7 +1,9 @@
 package com.mashibing.iterator.v2;
 
 
-
+/**
+ * 用链表实现一个容器
+ */
 public class LinkedList_ {
     Node head = null;
     Node tail = null;
