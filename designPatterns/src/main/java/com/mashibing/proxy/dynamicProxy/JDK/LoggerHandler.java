@@ -1,4 +1,4 @@
-package com.mashibing.proxy.dynamicProxy;
+package com.mashibing.proxy.dynamicProxy.JDK;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

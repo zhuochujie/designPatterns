@@ -1,4 +1,4 @@
-package com.mashibing.proxy.dynamicProxy;
+package com.mashibing.proxy.dynamicProxy.JDK;
 
 public class Tank implements Movable {
     @Override
